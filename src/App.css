@@ -13,26 +13,21 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#search-box {
+  height: 40px;
+  width: 200px;
+  margin: 30px;
+  font-size: medium;
 }
 
-.App-link {
-  color: #61dafb;
+#search-list {
+  position: absolute;
+  left: 95px;
+  top: 80px;
+  height: 110px;
+  overflow: scroll;
+  width: 200px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li {
+  list-style: none;
 }
